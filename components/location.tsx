@@ -77,9 +77,10 @@ export default function Location() {
                 <div>
                   <h4 className="font-bold text-base sm:text-lg mb-1 sm:mb-2">Contato</h4>
                   <p className="text-gray-600 leading-relaxed text-sm sm:text-base">
-                    WhatsApp: (77) 99968-5757
+                    WhatsApp 1: (77) 99968-5757
+                    WhatsApp 2: (77) 99932-1077
                     <br />
-                    Instagram: @petracoes
+                    Instagram: @petracoeslem
                   </p>
                 </div>
               </div>
