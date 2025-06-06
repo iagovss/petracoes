@@ -1,0 +1,134 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 20 14% 4.1%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 20 14% 4.1%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 20 14% 4.1%;
+
+    --primary: 24 95% 53%;
+    --primary-foreground: 60 9% 98%;
+
+    --secondary: 25 40% 40%;
+    --secondary-foreground: 60 9% 98%;
+
+    --muted: 60 4.8% 95.9%;
+    --muted-foreground: 25 5% 45%;
+
+    --accent: 24 95% 95%;
+    --accent-foreground: 24 95% 53%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 60 9% 98%;
+
+    --border: 20 5.9% 90%;
+    --input: 20 5.9% 90%;
+    --ring: 24 95% 53%;
+
+    --radius: 1.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+
+  .section-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-24;
+  }
+
+  .section-title {
+    @apply text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-center mb-4 sm:mb-6 relative;
+    background: linear-gradient(135deg, #ff6b35, #f7931e, #8b4513);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .section-subtitle {
+    @apply text-base sm:text-lg lg:text-xl text-gray-600 text-center max-w-3xl mx-auto mb-8 sm:mb-12 lg:mb-16 leading-relaxed font-medium px-4;
+  }
+
+  .alternate-bg {
+    background: linear-gradient(135deg, #fff5f0 0%, #ffeee6 50%, #fff 100%);
+  }
+
+  .card-modern {
+    @apply bg-white rounded-2xl sm:rounded-3xl shadow-xl border border-orange-100 overflow-hidden transition-all duration-500 hover:shadow-2xl hover:scale-105;
+  }
+
+  .btn-primary {
+    @apply bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white font-bold py-3 sm:py-4 px-6 sm:px-8 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg text-sm sm:text-base;
+  }
+
+  .btn-secondary {
+    @apply bg-white border-2 border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white font-bold py-3 sm:py-4 px-6 sm:px-8 rounded-full transition-all duration-300 text-sm sm:text-base;
+  }
+
+  .gradient-bg {
+    background: linear-gradient(135deg, #ff6b35 0%, #f7931e 50%, #ff6b35 100%);
+  }
+
+  .text-gradient {
+    background: linear-gradient(135deg, #ff6b35, #f7931e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .floating {
+    animation: floating 3s ease-in-out infinite;
+  }
+
+  .bounce-slow {
+    animation: bounce 2s infinite;
+  }
+
+  @keyframes floating {
+    0%,
+    100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+
+  .pattern-dots {
+    background-image: radial-gradient(circle, #ff6b35 1px, transparent 1px);
+    background-size: 15px 15px;
+    opacity: 0.1;
+  }
+
+  @media (min-width: 768px) {
+    .pattern-dots {
+      background-size: 20px 20px;
+    }
+  }
+
+  .wave-bg {
+    background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+  }
+
+  @media (max-width: 768px) {
+    .wave-bg {
+      clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+    }
+  }
+
+  .text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+}
