@@ -42,7 +42,7 @@ export default function AboutUs() {
             <div className="glass-effect rounded-3xl p-8 shadow-xl">
               <h3 className="text-2xl font-bold mb-4 gradient-text">Nossa Missão</h3>
               <p className="text-lg leading-relaxed text-gray-700">
-                A Rações do Cerrado é um negócio familiar que nasceu da paixão por animais e do compromisso com o campo.
+                A Pet Rações é um negócio familiar que nasceu da paixão por animais e do compromisso com o campo.
                 Há mais de 2 anos, atendemos com dedicação os produtores rurais e amantes de pets de Luís Eduardo
                 Magalhães e região.
               </p>
@@ -52,7 +52,7 @@ export default function AboutUs() {
               <h3 className="text-2xl font-bold mb-4 gradient-text">Nossos Valores</h3>
               <p className="text-lg leading-relaxed text-gray-700">
                 Oferecemos produtos de qualidade, com atendimento personalizado e preços justos. Entendemos as
-                necessidades específicas dos animais do cerrado e selecionamos cuidadosamente nosso estoque para
+                necessidades específicas dos animais e selecionamos cuidadosamente nosso estoque para
                 garantir a melhor nutrição e cuidado.
               </p>
             </div>
