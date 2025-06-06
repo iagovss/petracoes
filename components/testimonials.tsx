@@ -20,7 +20,7 @@ export default function Testimonials() {
       name: "João Oliveira",
       location: "Barreiras, BA",
       image: "/placeholder.svg?height=100&width=100",
-      text: "A qualidade das rações é excelente. Meus cães estão mais saudáveis desde que comecei a comprar na Rações do Cerrado.",
+      text: "A qualidade das rações é excelente. Meus cães estão mais saudáveis desde que comecei a comprar na Pet Rações.",
     },
     {
       name: "Ana Santos",
