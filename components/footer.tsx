@@ -81,7 +81,7 @@ export default function Footer() {
                   rel="noopener noreferrer"
                   className="hover:text-orange-200 transition-colors text-lg"
                 >
-                  (77) 99968-5757
+                  (77) 99968-5757 | (77) 99932-1077
                 </a>
               </li>
               <li className="flex items-center">
